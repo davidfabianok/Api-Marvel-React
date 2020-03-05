@@ -34,8 +34,9 @@ export const getCards = async (search, setCards, setLoading) => {
       setCards(result.data.data.results);
     }
     setLoading(false)
-  } catch {
-    
+  } catch (e) { 
+    console.error(e); 
+    setCards([]); 
   }
   
 };
