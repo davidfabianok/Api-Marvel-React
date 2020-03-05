@@ -33,3 +33,4 @@ _____
 ### Notes
 * night mode option is in the footer
 * pagination missing
+* missing adding the PropTypes to the components
